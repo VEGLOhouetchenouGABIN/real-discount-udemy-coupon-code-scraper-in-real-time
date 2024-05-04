@@ -1,45 +1,10 @@
 # real-discount-udemy-coupon-code-scraper-in-real-time
 real discount udemy coupon code scraper in real time
 
-## Deploy streamlit app on render.com free version with selenium integration
+### **Real-Time Udemy Course Discounts Scraper Dashboard**
 
-
-
-## The project description
-
-## Real-Time Udemy Course Discounts Scraper and Dashboard
-
-## Project Description:
-#### I developed a comprehensive web scraping and data visualization project focusing on fetching real-time Udemy course discounts from a popular coupon website and presenting the data in an interactive dashboard. The project is built using Python and several libraries including Streamlit for the dashboard interface, Selenium for web scraping, Pandas for data manipulation, and Plotly Express for data visualization.
-
-## Key Features:
-
-#### Web Scraping: Utilized Selenium to scrape Udemy course discounts in real-time from a specific website.
-#### Data Visualization: Presented the scraped data using Plotly Express to create interactive charts and graphs.
-#### Dynamic Dashboard: Created a Streamlit dashboard allowing users to filter course discounts based on various criteria such as category, provider, duration, rating, language, and more.
-#### Coupon Code Application: Provided functionality for users to apply coupon codes directly from the dashboard.
-#### Automatic Data Update: Implemented automatic data update functionality to continuously scrape for new discounts at regular intervals.
-
-## Technologies Used:
-
-#### Python
-#### Streamlit
-#### Selenium
-#### Pandas
-#### Plotly Express
-
-## Benefits:
-
-#### Enables users to quickly find and apply Udemy course discounts in real-time.
-#### Offers a user-friendly dashboard interface with interactive filtering options.
-#### Provides automatic updates to ensure users have access to the latest discounts without manual intervention.
-## Project Status:
-#### The project is fully functional and deployed, continuously scraping for new discounts and providing an intuitive dashboard interface for users to explore and apply coupon codes. Find out deployed versions of the project on this link : https://real-discount-udemy-coupon-code-news-available-kxofd6jkqqwtovx.streamlit.app
-
-## Looking for:
-#### Opportunities to collaborate on similar projects, customize the dashboard for specific needs, or provide ongoing maintenance and support.
-
-# APPLICATION VIEW
+### **Overview**
+This dashboard provides real-time updates on Udemy course discounts scraped from the Real Discount website. It utilizes Selenium to scrape coupon data and Streamlit for dashboard visualization. Users can filter courses based on various criteria, view statistics, and apply coupon codes directly from the dashboard.
 
 ![General statics on courses original price with discount](real-discount-1.png)
 
@@ -49,4 +14,36 @@ real discount udemy coupon code scraper in real time
 
 ![Cureents coupons to apply](real-discount-4.png)
 
-## Code conerned for this views: automated-real-time-scraper.py
+![](code.png)
+
+### **Setup**
+Ensure you have Python installed along with the necessary libraries like `streamlit`, `pandas`, `plotly-express`, and `selenium`.
+
+### **Usage**
+1. Run the script.
+2. Select the file containing Udemy course data based on your preferred date.
+3. Filter courses based on category, duration, provider, rating, language, students enrolled, price, and views.
+4. View statistics such as total original courses price, average rating, and average original courses price.
+5. Apply coupon codes to available courses.
+6. Monitor real-time updates on newly available coupons.
+
+### **How to Run**
+1. Install the necessary libraries using `pip install streamlit pandas plotly-express selenium`.
+2. Run the script.
+3. Follow the prompts to interact with the dashboard.
+
+### **Dependencies**
+- Python 3.x
+- Libraries: `streamlit`, `pandas`, `plotly-express`, `selenium`
+
+### **Notes**
+- Ensure the WebDriver for Selenium is installed and configured properly.
+- Customize the filtering options and dashboard layout according to your preferences.
+- Monitor real-time updates periodically for new course discounts.
+
+### **Contributors**
+- [Your Name]
+
+### **License**
+#**This project is licensed under the MIT License.**#
+
