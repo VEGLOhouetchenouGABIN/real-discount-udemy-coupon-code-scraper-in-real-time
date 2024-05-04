@@ -42,7 +42,7 @@ Ensure you have Python installed along with the necessary libraries like `stream
 - Monitor real-time updates periodically for new course discounts.
 
 ### **Contributors**
-- [Your Name]
+- Gabin H. VEGLO
 
 ### **License**
 #**This project is licensed under the MIT License.**#
